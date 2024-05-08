@@ -48,7 +48,23 @@
     
     <section id="common-mistakes">
         <h2>Python 易错题</h2>
-        <p>描述一些常见的 Python 编程错误，比如缩进错误、变量命名冲突等。</p>
+        <h3>列表操作易错点：</h3>  
+  
+<ol>  
+  <li><strong>列表索引从0开始</strong>：在 Python 中，列表的索引是从0开始的。如果一个列表有n个元素，最后一个元素的索引是n-1。</li>  
+  <li><strong>负数索引</strong>：负数索引表示从列表末尾开始计数，如<code>list[-1]</code>表示列表中的最后一个元素。</li>  
+  <li><strong>切片操作</strong>：列表可以用切片来获取子列表，切片操作包括起始位置、结束位置和步长。但是要注意切片操作的边界以及步长的使用方式。</li>  
+  <li><strong>列表方法</strong>：列表有许多内置的方法，如<code>.append()</code>、<code>.extend()</code>、<code>.remove()</code> 等。初学者可能混淆这些方法的作用和使用方式。</li>  
+</ol>  
+  
+<h3>字典操作易错点：</h3>  
+  
+<ol>  
+  <li><strong>字典的键值对应关系</strong>：字典是由键值对构成的，要正确理解和使用键值对这一特性。</li>  
+  <li><strong>访问字典元素</strong>：通过键来访问字典中的元素，如果键不存在会引发 KeyError 错误。</li>  
+  <li><strong>字典方法</strong>：字典也有许多内置方法，如<code>.keys()</code>、<code>.values()</code>、<code>.items()</code>等，初学者需要逐步掌握这些方法的用法。</li>  
+  <li><strong>字典的遍历</strong>：初学者在遍历字典时可能会混淆如何遍历键、值或键值对。</li>  
+</ol>  
     </section>
     
     
